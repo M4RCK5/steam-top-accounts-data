@@ -9,7 +9,7 @@ This repository contains the top 20 Steam accounts ranked by number of games own
 
 ## Last Updated
 
-Sun Jul 12 05:27:15 UTC 2026
+Sun Jul 19 05:13:31 UTC 2026
 
 ## Note
 
@@ -20,7 +20,7 @@ The Steam accounts listed are publicly available and ranked by the number of gam
 
 You can download the `steam_ids_only.txt` file directly:
 ```
-https://raw.githubusercontent.com/KaladinDMP/steam-top-accounts-data/main/steam_ids_only.txt
+https://raw.githubusercontent.com/M4RCK5/steam-top-accounts-data/main/steam_ids_only.txt
 ```
 
 Or use it in your script:
@@ -28,7 +28,7 @@ Or use it in your script:
 import requests
 
 # Download the file
-url = "https://raw.githubusercontent.com/KaladinDMP/steam-top-accounts-data/main/steam_ids_only.txt"
+url = "https://raw.githubusercontent.com/M4RCK5/steam-top-accounts-data/main/steam_ids_only.txt"
 response = requests.get(url)
 steam_ids = response.text.strip().split('\n')
 
